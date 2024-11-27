@@ -1,0 +1,37 @@
+.flag {
+  height: 600px;
+  width: 900px;
+  background-color:red;
+  position: relative;
+}
+
+/* for blue */
+.flag > div {
+
+  height: 300px;
+  width: 100%;
+  background-color:blue;
+  top: 150px;
+  position: absolute;
+}
+
+.flag > div > div {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 50%;
+  top: 50px;
+  left: 350px;
+  position: absolute;
+}
+
+p {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.flag>div div p {
+  color: black;
+}

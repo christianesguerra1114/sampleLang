@@ -1,37 +1,21 @@
-.flag {
-  height: 600px;
-  width: 900px;
-  background-color:red;
-  position: relative;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
 }
 
-/* for blue */
-.flag > div {
-
-  height: 300px;
-  width: 100%;
-  background-color:blue;
-  top: 150px;
-  position: absolute;
-}
-
-.flag > div > div {
-  height: 200px;
-  width: 200px;
-  background-color: white;
-  border-radius: 50%;
-  top: 50px;
-  left: 350px;
-  position: absolute;
-}
-
-p {
+h1 {
   font-size: 5rem;
-  color: white;
-  text-align: center;
-  padding: 0;
-  margin: 0;
 }
-.flag>div div p {
-  color: black;
+
+footer {
+  text-align: right;
+  color: midnightblue;
 }
+
